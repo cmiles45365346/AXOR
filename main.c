@@ -8,6 +8,8 @@ int main()
 
   private_key[0] = 1;
   public_key[0] = 1;
+  private_key[1] = 1;
+  public_key[1] = 1;
 
   //encode & decode
   for (int i = 0; i <= 257; i++) 
