@@ -9,7 +9,7 @@ int main()
   //encode & decode
   for (int i = 0; i <= 257; i++) 
   {
-    if (privatre_key[i] == 1 && public_key[i] == 1) 
+    if (private_key[i] == 1 && public_key[i] == 1) 
     {
         output++;
     }
